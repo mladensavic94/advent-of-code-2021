@@ -1,4 +1,5 @@
 package io.github.mladensavic94
+package completed
 
 object Day5 {
 
@@ -16,7 +17,7 @@ object Day5 {
     //    printMatrix(matrix)
     lines.foreach(markLine(_, matrix))
     //    printMatrix(matrix)
-    println(matrix.flatMap(_.toList).filter(_.>(1)).length)
+    println(matrix.flatMap(_.toList).count(_.>(1)))
 
   }
 
@@ -29,7 +30,7 @@ object Day5 {
 //    printMatrix(matrix)
     lines.foreach(markLine2(_, matrix))
 //    printMatrix(matrix)
-    println(matrix.flatMap(_.toList).filter(_.>(1)).length)
+    println(matrix.flatMap(_.toList).count(_.>(1)))
   }
 
   def printMatrix(matrix: Array[Array[Int]]): Unit = {

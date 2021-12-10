@@ -1,6 +1,6 @@
 package io.github.mladensavic94
 
-import Day2.{task1, task2}
+import io.github.mladensavic94.completed.Day2.{task1, task2}
 
 object Template {
   def main(args: Array[String]): Unit = {

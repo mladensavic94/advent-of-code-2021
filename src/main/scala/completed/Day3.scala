@@ -1,6 +1,5 @@
 package io.github.mladensavic94
-
-import Day2.{task1, task2}
+package completed
 
 object Day3 {
   def main(args: Array[String]): Unit = {

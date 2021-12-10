@@ -1,4 +1,5 @@
 package io.github.mladensavic94
+package completed
 
 object Day1 {
 
@@ -24,7 +25,7 @@ object Day1 {
     var prevSum = list.head + list(1) + list(2)
     for (i <- 1 until list.length - 2) {
       val sum = list(i) + list(i + 1) + list(i + 2)
-      if(sum > prevSum)
+      if (sum > prevSum)
         counter += 1
       prevSum = sum
     }

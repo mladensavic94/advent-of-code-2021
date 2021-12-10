@@ -1,4 +1,5 @@
 package io.github.mladensavic94
+package completed
 
 object Day8 {
   def main(args: Array[String]): Unit = {

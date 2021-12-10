@@ -1,7 +1,8 @@
 package io.github.mladensavic94
+package completed
 
-import scala.util.control.Breaks.break
 import scala.collection.mutable.Set
+import scala.util.control.Breaks.break
 
 object Day4 {
   def main(args: Array[String]): Unit = {
