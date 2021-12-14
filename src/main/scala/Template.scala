@@ -1,7 +1,5 @@
 package io.github.mladensavic94
 
-import io.github.mladensavic94.completed.Day2.{task1, task2}
-
 object Template {
   def main(args: Array[String]): Unit = {
     task1()
@@ -9,11 +7,11 @@ object Template {
   }
 
   def task1(): Unit = {
-    val list = Util.readFile("src/main/resources/***.txt")
+    val list = Util.readFile("src/main/resources/dummy.txt")
 
   }
 
   def task2(): Unit = {
-    val list = Util.readFile("src/main/resources/***.txt")
+    val list = Util.readFile("src/main/resources/dummy.txt")
   }
 }

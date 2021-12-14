@@ -1,4 +1,5 @@
 package io.github.mladensavic94
+package completed
 
 import scala.collection.mutable
 import scala.util.control.Breaks
@@ -56,7 +57,7 @@ object Day10 {
       })
     }
     val sorted = incomplete.map(calculateScore).sorted
-    println(sorted(sorted.length/2))
+    println(sorted(sorted.length / 2))
   }
 
   def isOpenChar(char: Char): Boolean = {
